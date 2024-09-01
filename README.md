@@ -10,10 +10,10 @@ Client side routing allows your app to update the URL from a link click without 
     import * as React from "react";
     import { createRoot } from "react-dom/client";
     import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
-    Link,
+        createBrowserRouter,
+        RouterProvider,
+        Route,
+        Link,
     } from "react-router-dom";
 
     const router = createBrowserRouter([
